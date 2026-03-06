@@ -100,12 +100,19 @@ docker compose exec -T postgres psql -U m1yrat m1yrat < backup_20250101.sql
 
 ## Pro Edition
 
-The **Pro Edition** includes automatic bank sync via [SimpleFin](https://www.simplefin.org/), which connects to thousands of banks and financial institutions to automatically import your transactions.
+The **Pro Edition** adds automatic bank sync and hands-on support for getting the most out of m1yrat.
 
-- One-time purchase: **$29**
-- SimpleFin itself requires a separate account with a **$15/year** subscription that you create and own independently
+**Automatic bank sync** — Connect to thousands of banks and financial institutions via [SimpleFin](https://www.simplefin.org/) to automatically import your transactions. SimpleFin requires a separate account with a **$15/year** subscription that you create and own independently.
 
-Interested? Contact **cezar@webdevised.com** for details.
+**Also included:**
+
+- Step-by-step guide for hosting m1yrat on a NAS (Synology, QNAP, etc.)
+- Instructions for accessing your instance from anywhere with Tailscale
+- Email support
+- Priority feature requests
+- Early access to new features
+
+**One-time purchase: $29** — [m1yrat.com](https://m1yrat.com)
 
 ## License
 
