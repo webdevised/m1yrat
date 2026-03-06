@@ -86,6 +86,11 @@ Your data is preserved across updates.
 
 All data is stored in a PostgreSQL database inside a Docker volume (`postgres-data`).
 
+The easiest way to back up and restore your data is through the app itself — go to **Settings > Backup & Restore** to export or import your data.
+
+<details>
+<summary>Advanced: database-level backups via Docker</summary>
+
 **Create a backup:**
 
 ```bash
@@ -97,6 +102,8 @@ docker compose exec postgres pg_dump -U m1yrat m1yrat > backup_$(date +%Y%m%d).s
 ```bash
 docker compose exec -T postgres psql -U m1yrat m1yrat < backup_20250101.sql
 ```
+
+</details>
 
 ## Pro Edition
 
