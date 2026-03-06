@@ -12,7 +12,13 @@
 
 ## Screenshots
 
-<!-- Screenshots will be added here -->
+| Dashboard | Transactions |
+|:---------:|:------------:|
+| ![Dashboard](docs/screenshots/ss-1.png) | ![Transactions](docs/screenshots/ss-2.png) |
+
+| SimpleFin Bank Sync (Pro) |
+|:-------------------------:|
+| ![SimpleFin](docs/screenshots/ss-3.png) |
 
 ## Features
 
